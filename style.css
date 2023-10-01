@@ -1,0 +1,111 @@
+body {
+	background-color: rgb(17, 57, 70);
+	color: rgb(17, 57, 70);
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+}
+
+h1 {
+	color: rgb(63, 29, 56);
+	font-family: 'Sofia', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+h2{
+	color: rgb(17, 57, 70);
+	font-family: 'Bitter', serif;
+	font-size:28px;
+	font-weight: 700;
+}
+a {
+	text-decoration:none;
+	color:rgb(188, 163, 127);
+	transition: color 0.3s ease;
+}
+a:hover {
+	color:rgb(249, 245, 235);
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: rgb(17, 57, 70);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: beige;
+	color: rgb(17, 57, 70);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: rgb(38,62,15);
+}
+.list-inline i:hover {
+	color: rgb(188, 163, 127);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#reading p {
+	margin-bottom: 40px;
+}
+
+#baking p {
+	margin-bottom: 40px;
+}
+
+#yoga p {
+	margin-bottom: 40px;
+}
+
+.card-white:hover {
+	background-color: rgb(255, 242, 216);
+}
+
+
